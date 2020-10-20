@@ -1,0 +1,22 @@
+.HomeCss {
+  width: 100vh;
+  align-items: center;
+  height: 100vh;
+  color: brown;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+* {
+  margin: 0;
+}

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.App {
+  background-color: #fafafa;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__post {
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.app__postRight {
+  margin-left: 10px;
+}
+
+.app__postRight > InstagramEmbed {
+  border-radius: 10px;
+}
+.App > h3 {
+  color: blueviolet;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+}
